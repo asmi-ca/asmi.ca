@@ -1,0 +1,13 @@
+exclude:
+- README.md
+- LICENSE.md
+
+timezone: America/Edmonton
+
+# use where a full URL is appropriate (e.g. RSS, OG tags)
+url: http://asmi.ca
+
+# metadata
+title: Alberta Summer Mathematics Institute
+description: "Educational summer mathematics program for high school students in Alberta."
+

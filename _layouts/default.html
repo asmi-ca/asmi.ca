@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+{% if page.title %}
+  <title>{{ page.title }} | ASMI</title>
+  <meta property="og:title" content="{{ page.title | xml_escape }}" />
+{% else %}
+  <title>{{ site.title }}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }}" />
+{% endif %}
+
+<link href="/assets/normalize.css" rel="stylesheet">
+<link href="/assets/styles.css" rel="stylesheet">
+
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="wrapper">
+    <div id="header">
+      <div id="masthead">
+        <a href="http://asmi.ca/" id="logo-flag" rel="home">ASMI</a>
+        <div id="branding" role="banner">
+          <a href="http://asmi.ca/" id="site-title" rel="home">Alberta Summer Mathematics Institute</a>
+        </div>
+      </div><!-- #masthead -->
+      <div id="access" role="navigation">
+        <div class="menu">
+          <ul id="nav">
+            {% assign page_list = (site.pages | sort: 'nav-index') %}
+            {% assign group = 'global_navigation' %}
+            <li {% if page.url == "/" %}class="current_page_item"{% endif %}>
+              <a href="/">Home</a>
+            </li>
+            {% for node in page_list %}
+              {% if group == null or group == node.group %}
+                <li {% if page.url == node.url %}class="current_page_item"{% endif %}>
+                  <a href="{{node.url}}">{{node.title}}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div><!-- #access -->
+      <img width="952" height="238" src="{{page.photo | default: '/images/IMG_0780.jpg' }}" id="header_image" />
+    </div><!-- #header -->
+    <div id="container" class="{{ page.class }}">
+      <div id="content">
+      {{ content }}
+      </div>
+    </div>
+    <div class="inner">
+      <div id="footer" role="contentinfo">
+          © 2010&ndash;2016 <a href="http://asmi.ca/">Alberta Summer Mathematics Institute</a> —
+          Design by <a href="https://ranek.org/">Ranek Kiil</a>
+      </div>
+      <!-- Piwik -->
+      <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["trackPageView"]);
+        _paq.push(["enableLinkTracking"]);
+        (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://clientstats.ranek.org/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "8"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <!-- End Piwik -->
+    </div><!-- .inner -->
+  </div><!-- #wrapper -->
+</body>
+</html>

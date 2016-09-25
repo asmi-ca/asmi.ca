@@ -1,0 +1,349 @@
+/*
+Theme Name: Alberta Summer Mathematics Institute
+Theme URI: http://asmi.ca/
+Description: Theme for the <a href="http://asmi.ca/">ASMI</a> by <a href="http://ranek.org/">Ranek Kiil</a>.
+Author: Ranek Kiil
+Author URI: https://ranek.org/
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "CartoGothic", Helvetica, sans-serif;
+  background: #f1f1f1 url(project_paper.png);
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 952px;
+  background: #fff;
+  padding: 0 8px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+a:link {
+  color: #0066cc;
+}
+
+a:visited {
+  color: #743399;
+}
+
+a:active,
+a:hover {
+  color: #ff4b33;
+}
+
+body,
+input,
+textarea {
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+}
+hr {
+  background-color: #e7e7e7;
+  border: 0;
+  clear: both;
+  height: 1px;
+  margin-bottom: 18px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
+#header {
+  padding: 0 0 0 0;
+}
+
+#site-description {
+  clear: right;
+  float: right;
+  font-style: italic;
+  margin: 14px 0 18px 0;
+  width: 220px;
+}
+
+#branding img {
+  border-top: 4px solid #000;
+  border-bottom: 1px solid #000;
+  clear: both;
+  display: block;
+}
+
+#main {
+  clear: both;
+  overflow: hidden;
+  padding: 8px 0 0 0;
+}
+
+#content {
+  margin-bottom: 36px;
+  margin-top: 18px;
+}
+
+#content,
+#content input,
+#content textarea {
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#content p,
+#content ul,
+#content ol,
+#content dd,
+#content pre,
+#content hr {
+  margin-bottom: 24px;
+}
+
+#content ul ul,
+#content ol ol,
+#content ul ol,
+#content ol ul {
+  margin-bottom: 0;
+}
+
+#content dt,
+#content th {
+  color: #000;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+  color: #000;
+  line-height: 1.5em;
+  margin: 0 0 20px 0;
+}
+
+#content table {
+  border: 1px solid #e7e7e7;
+  margin: 0 -1px 24px 0;
+  text-align: left;
+  width: 100%;
+}
+
+#content tr th,
+#content thead th {
+  color: #888;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 9px 24px;
+}
+
+#content tr td {
+  border-top: 1px solid #e7e7e7;
+  padding: 6px 24px;
+}
+
+#content tr.odd td {
+  background: #f2f7fc;
+}
+
+#content img {
+  margin: 0;
+  max-width: 640px;
+}
+
+#content .alignleft,
+#content img.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 24px;
+  margin-top: 4px;
+}
+
+#content .alignright,
+#content img.alignright {
+  display: inline;
+  float: right;
+  margin-left: 24px;
+  margin-top: 4px;
+  clear: right;
+}
+
+#content img.alignleft,
+#content img.alignright,
+#content img.aligncenter {
+  margin-bottom: 12px;
+}
+
+#content .caption {
+  background: #f1f1f1;
+  line-height: 18px;
+  margin-bottom: 8px;
+  padding: 4px;
+  text-align: center;
+}
+
+#content .caption img {
+  margin: 5px 5px 0;
+}
+
+#content .caption p.caption-text {
+  color: #888;
+  font-size: 12px;
+  margin: 5px;
+}
+
+#footer {
+  border-top: 4px solid #000;
+  padding: 8px 0;
+}
+
+#footer a {
+  font-weight: bold;
+}
+
+#site-info a {
+  color: #000;
+  text-decoration: none;
+}
+
+#masthead h1 {
+  margin: 0;
+}
+
+#logo-flag {
+  background: #c00;
+  width: 152px;
+  height: 44px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 48px;
+  text-shadow: #000 0 2px 4px;
+  padding-top: 28px;
+  float: left;
+  text-decoration: none;
+  display: block;
+}
+
+#site-title {
+  float: left;
+  margin: 0;
+  padding-left: 8px;
+  width: 232px;
+  line-height: 20px;
+  font-size: 18px;
+  padding-top: 15px;
+  height: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+#site-title {
+  color: #c00;
+  font-weight: normal;
+}
+
+#access {
+  clear: both;
+  margin: 0 -4px;
+  padding: 8px 0;
+}
+
+#access ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#access li {
+  margin: 0;
+  float: left;
+  width: 160px;
+}
+
+#access li a {
+  display: block;
+  border-bottom: 4px solid #000;
+  margin: 0 4px;
+  height: 20px;
+  color: #000;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+#access li a:hover {
+  color: #c00;
+}
+#access li a:active {
+  border-color: #c00;
+}
+
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+  color: #fff;
+  background: #c00;
+  border: none;
+  padding-bottom: 4px;
+}
+
+#header_image {
+  margin-top: 8px;
+}
+
+#content p img {
+  text-align: center;
+}
+
+#content h3 {
+  text-align: center;
+}
+
+.centered #content {
+  text-align: center;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url('CartoGothicStd-Book-webfont.eot');
+  src: local('☺'), url('CartoGothicStd-Book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url('CartoGothicStd-Italic-webfont.eot');
+  src: local('☺'), url('CartoGothicStd-Italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url('CartoGothicStd-Bold-webfont.eot');
+  src: local('☺'), url('CartoGothicStd-Bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CartoGothic';
+  src: url('CartoGothicStd-BoldItalic-webfont.eot');
+  src: local('☺'), url('CartoGothicStd-BoldItalic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
