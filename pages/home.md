@@ -17,7 +17,7 @@ nav-index: 10
 	The <strong>Alberta Summer Mathematics Institute</strong> offers a fun, educational summer mathematics program to high school students. Its mission is to <strong>inspire exploration and research</strong> in mathematical studies.
 </div>
 
-<strong>ASMI will not run in 2017. Please check back the next year!</strong>
+<strong>ASMI will not run in 2018. Please check back the next year!</strong>
 
 ASMI is a "day camp" style event featuring a blend of mathematics instruction and directed research to be held on the main campus of the University of Alberta in Edmonton. It is sponsored by the Pacific Institute for the Mathematical Sciences (PIMS), Alberta Advanced Education and Technology (AAET), and the University of Alberta. There is no cost to the high school student Fellows (or their teachers) for participation in ASMI.
 
